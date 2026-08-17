@@ -1,0 +1,5 @@
+# SYNTHETIC SAMPLE FIXTURE — NOT AN ORIGINAL EDA REPORT OR SIGNOFF ARTIFACT
+# Values mirror portfolio-reported historical metrics solely to exercise the parser.
+WNS (setup): +0.07 ns
+TNS (setup): 0.00 ns
+Violating endpoints: 0

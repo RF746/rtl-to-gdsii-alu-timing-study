@@ -1,0 +1,6 @@
+# SYNTHETIC SAMPLE FIXTURE — NOT AN ORIGINAL EDA REPORT OR SIGNOFF ARTIFACT
+# Values mirror portfolio-reported historical metrics solely to exercise the parser.
+Clock sinks: 136
+Inserted clock buffers: 29
+Maximum skew: 0.19 ns
+Insertion delay: 0.76 ns

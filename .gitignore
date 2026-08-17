@@ -1,0 +1,29 @@
+# Simulation and EDA output
+build/
+runs/
+results/
+reports/generated/
+*.vcd
+*.fst
+*.lxt
+*.lxt2
+*.sdf
+*.spef
+*.gds
+*.gdsii
+*.def
+*.odb
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Editors and operating systems
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/

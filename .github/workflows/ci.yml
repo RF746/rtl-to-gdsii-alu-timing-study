@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Icarus Verilog
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes iverilog
+          iverilog -V
+          vvp -V
+
+      - name: Run reproducible tests
+        run: make test
+
+      - name: Exercise report summarizer
+        run: make metrics

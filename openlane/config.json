@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "version": 2
+  },
+  "DESIGN_NAME": "pipelined_alu",
+  "VERILOG_FILES": [
+    "dir::../rtl/pipelined_alu.v"
+  ],
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 10.0,
+  "SDC_FILE": "dir::../constraints/alu.sdc",
+  "FP_CORE_UTIL": 40,
+  "FP_ASPECT_RATIO": 1.0,
+  "PL_TARGET_DENSITY_PCT": 45
+}
